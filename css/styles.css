@@ -95,6 +95,11 @@ img {
     margin-block: 12px;
 }
 
+.description h1:hover,
+.description h1:focus-visible {
+    color: var(--color-yellow);
+}
+
 .description span {
     background: var(--color-yellow);
     padding-inline: 12px;
