@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Figtree;
+    src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.figtree-medium-14 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.figtree-medium-16 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--color-grey-500);
+}
+
+.figtree-extrabold-24 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.figtree-extrabold-14 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+:root {
+    --font-weight-extrabold-800: 800;
+    --font-weight-medium-500: 500;
+    --color-grey-500: #6B6B6B;
+    --color-grey-900: #111111;
+    --color-yellow: #F4D04E;
+    --color-white: #FFFFFF;
+}
+
+.wrapper {
+    block-size: 100vh;
+    background: var(--color-yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: var(--color-white);
+    box-shadow: 10px 8px var(--color-grey-900);
+    block-size: 522px;
+    inline-size: 384px;
+    border: var(--color-grey-900) 1px solid;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.description {
+    margin-block: 24px;
+}
+
+.description h1 {
+    margin-block: 12px;
+}
+
+.description span {
+    background: var(--color-yellow);
+    padding-inline: 12px;
+    padding-block: 4px;
+    border-radius: 4px;
+}
+
+.date {
+    color: var(--color-grey-900);
+    margin-block: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img {
+    display: inline;
+    inline-size: 32px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-block: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
